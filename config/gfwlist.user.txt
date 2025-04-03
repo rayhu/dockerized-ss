@@ -1,0 +1,5 @@
+# Custom rules for PAC file
+# Add your custom rules here, one per line
+# Example:
+# *.example.com
+# *.google.com 

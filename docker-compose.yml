@@ -1,0 +1,12 @@
+version: '3'
+services:
+  ssclient:
+    build: .
+    container_name: ssclient
+    ports:
+      - "1080:1080"   # SOCKS5
+      - "8080:8080"   # PAC HTTP
+    volumes:
+      - ./config/config.json:/app/config/shadowsocks.json
+      - ./config/gfwlist.user.txt:/app/gfwlist.user.txt
+    restart: always
