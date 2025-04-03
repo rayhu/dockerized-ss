@@ -1,9 +1,9 @@
 # Dockerized Shadowsocks Client
 # Docker 化的 Shadowsocks 客户端
 
-[English](#english) | [中文](#中文)
+[English](#english-section) | [中文](#chinese-section)
 
-## English
+## English Section
 
 A Docker containerized Shadowsocks client with PAC (Proxy Auto-Configuration) support and automatic updates.
 
@@ -80,7 +80,7 @@ docker-compose up -d
 ### Logs
 View container logs:
 ```bash
-docker-compose logs -f
+docker logs -f ssclient
 ```
 
 ### Stop the Container
@@ -88,7 +88,7 @@ docker-compose logs -f
 docker-compose down
 ```
 
-## 中文
+## Chinese Section
 
 一个支持 PAC（代理自动配置）和自动更新的 Docker 容器化 Shadowsocks 客户端。
 
@@ -165,7 +165,7 @@ docker-compose up -d
 ### 日志查看
 查看容器日志：
 ```bash
-docker-compose logs -f
+docker logs -f ssclient
 ```
 
 ### 停止容器
